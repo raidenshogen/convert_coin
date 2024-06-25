@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="convert_coin.css">
+    <title>Document</title>
+</head>
+<body>
+
+<form>
+<h1>convert_coin</h1><br>
+<input type="number" id="textbox" value="0"><br>
+<input type="radio" id="eur" value="USD->EUR" >
+<label for="toeur">USD🔜EUR</label><br>
+<input type="radio" id="usd" value="EUR->USD" >
+<label for="tousd">EUR🔜USD</label><br>     
+<button type="button" onclick="convert()" >Convert</button> <br>
+<p id="result"></p>
+<script src="convert_coin.js"></script>
+</body>
+</html>
